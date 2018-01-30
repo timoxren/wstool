@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
         w->addLine("Error: " + err);
     });
 
+
     w->show();
     return a.exec();
 }
